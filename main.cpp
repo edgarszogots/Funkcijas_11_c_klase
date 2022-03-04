@@ -2,6 +2,9 @@
 using namespace std;
 int process (int x, int y, int & max, double & avg) 
 {
+if (x>y){
+  max=x
+      
 
 }
 int main() {
