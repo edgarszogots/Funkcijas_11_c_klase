@@ -2,7 +2,14 @@
 using namespace std;
 int process (int x, int y, int & max, double & avg) 
 {
-
+if(x>y) {
+  x=max;
+} 
+  return x-y;
+  else 
+  y=max;
+  
+  
 }
 int main() {
 	int a,b,liel;
